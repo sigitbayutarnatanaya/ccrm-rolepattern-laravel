@@ -59,3 +59,4 @@ env $(cat .env | grep ^[A-Z] | xargs) docker-compose up -d
 **Room to Improve**
 - For automation deployment need to improve on image build for NodeJs and Composer inside Docker build
 - Still Using Default setting and config for every dependecy
+  
